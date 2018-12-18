@@ -146,7 +146,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="GameBoard.cpp" />
+    <ClCompile Include="Gotoxy.cpp" />
+    <ClCompile Include="Joker.cpp" />
+    <ClCompile Include="Lshape.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Plus.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="SpecialShape.cpp" />
+    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="theGame.cpp" />
+    <ClCompile Include="Zshape.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="GameBoard.h" />
+    <ClInclude Include="Gotoxy.h" />
+    <ClInclude Include="Joker.h" />
+    <ClInclude Include="Lshape.h" />
+    <ClInclude Include="Plus.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Snake.h" />
+    <ClInclude Include="SpecialShape.h" />
+    <ClInclude Include="Square.h" />
+    <ClInclude Include="theGame.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Zshape.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
